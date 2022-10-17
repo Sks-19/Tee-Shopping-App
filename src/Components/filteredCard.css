@@ -1,0 +1,28 @@
+.cardss {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+
+@media only screen and (max-width: 400px) {
+  .filteredCard {
+    width: 8.2rem;
+    height: 13rem;
+    margin-left: 25%;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 700px) {
+  .filteredCard {
+    width: 12rem;
+    height: 17rem;
+    margin-left: 16%;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .filteredCard {
+    width: 18rem;
+    height: 23rem;
+    margin-left: 20%;
+  }
+}

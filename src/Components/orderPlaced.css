@@ -1,0 +1,32 @@
+@media only screen and (max-width: 400px) {
+  .orderClass {
+    width: 22rem;
+    text-align: center;
+    align-items: center;
+    background-color: green;
+    top: 2rem;
+    margin: auto auto;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 700px) {
+  .orderClass {
+    width: 24rem;
+    text-align: center;
+    align-items: center;
+    background-color: green;
+    top: 2rem;
+    margin: auto auto;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .orderClass {
+    width: 50rem;
+    text-align: center;
+    align-items: center;
+    background-color: green;
+    top: 2rem;
+    margin: auto auto;
+  }
+}

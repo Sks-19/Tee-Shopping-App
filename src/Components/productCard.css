@@ -1,0 +1,37 @@
+.cards {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+
+@media only screen and (max-width: 400px) {
+  .productCard {
+    width: 8.2rem;
+    height: 13rem;
+    margin-left: 3%;
+  }
+  .cardImage {
+    height: 13rem;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 700px) {
+  .productCard {
+    width: 12rem;
+    height: 17rem;
+    margin-left: 6%;
+  }
+  .cardImage {
+    height: 16rem;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .productCard {
+    width: 18rem;
+    height: 23rem;
+    margin-left: 10%;
+  }
+  .cardImage {
+    height: 22rem;
+  }
+}

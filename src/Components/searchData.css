@@ -1,0 +1,19 @@
+.dropdownbtn {
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  float: left;
+  position: absolute;
+  overflow: auto;
+  background-color: #fff;
+  width: 90vw;
+  padding: 0%;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 99;
+}
